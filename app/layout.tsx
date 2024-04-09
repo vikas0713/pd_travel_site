@@ -18,15 +18,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      
-      <body className={inter.className}>
-      <Navbar />
-      <main className="relative overflow-hidden">
-      {children}
 
-      </main>
-        <Footer/>
-        </body>
+      <body className={inter.className}>
+        <Navbar />
+        <main className="relative overflow-hidden">
+          {children}
+        </main>
+        <Footer />
+      </body>
     </html>
   );
 }
